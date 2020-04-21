@@ -25,10 +25,6 @@
                 <span> <?php echo $album['data'] ?></span>
             </div>
             <?php } ?>
-
-            <div class="maincard">
-
-            </div>
         </main>
 
 

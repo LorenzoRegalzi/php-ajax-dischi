@@ -1,21 +1,24 @@
 main, .maincard {
     background-color: grey;
-    height: 1000px;
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
     .card {
         width: 250px;
         height: 300px;
         background-color: black;
         margin: 10px;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         .immagine {
             color: white;
                 img{
                 width: 150px;
                 height: 150px;
+                margin-top: 20px;
+                margin-bottom: 20px;
                 }
         }
         p, h2, span{

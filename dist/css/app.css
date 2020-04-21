@@ -12,9 +12,10 @@
 main,
 .maincard {
   background-color: grey;
-  height: 1000px;
   display: flex;
-  justify-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
 }
 
 main .card,
@@ -23,9 +24,9 @@ main .card,
   height: 300px;
   background-color: black;
   margin: 10px;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 main .card .immagine,
@@ -37,6 +38,8 @@ main .card .immagine img,
 .maincard .card .immagine img {
   width: 150px;
   height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 main .card p,
